@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: rocketchat
-          image: rocket.chat:latest
+          image: rocket.chat:2.4.9
           env:
             - name: MONGO_URL
               value: "mongodb://rocket-chat-db:27017/rocketchat"
